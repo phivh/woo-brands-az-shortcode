@@ -1,0 +1,28 @@
+{
+    "name": "woo-brands-az-shortcode",
+    "version": "1.0.0",
+    "description": "Mini plugin Woo Brands sorting from A to Z",
+    "main": "Gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/phivh/woo-brands-az-shortcode.git"
+    },
+    "keywords": [
+        "WooCommerce",
+        "Plugin"
+    ],
+    "author": "Brian Vo <phivhnet@gmail.com> (http://p-programmer.com)",
+    "license": "GPL2",
+    "bugs": {
+        "url": "https://github.com/phivh/woo-brands-az-shortcode/issues"
+    },
+    "homepage": "https://github.com/phivh/woo-brands-az-shortcode#readme",
+    "dependencies": {
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^4.0.0",
+        "gulp-sass": "^3.1.0"
+    }
+}
