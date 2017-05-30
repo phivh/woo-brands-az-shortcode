@@ -196,7 +196,7 @@ if(!function_exists('init_woo_brands_shortcode')) {
 		}
 
 		add_shortcode( 'Ph_d2d_brands_az' , 'brands_menu_html' );
-
+		
 		// Add Script & Style 
 		$plugin_url = plugin_dir_url( __FILE__ );
 

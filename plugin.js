@@ -2,6 +2,9 @@
     "use strict"; // Start of use strict
     function init_brands_navigation() {
         var e = $(".brands .brand_group_name");
+        // Limit menu width
+        e.closest('.sub-menu').addClass('brand-box');
+        // @event
         e.hover(function() {
                 var e = $(this),
                     t = e.parents(".brands").find(".brand_list"),
